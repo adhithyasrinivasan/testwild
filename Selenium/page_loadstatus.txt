@@ -1,0 +1,8 @@
+Wait<WebDriver> wait = new WebDriverWait(driver_, 30);
+wait.until(new Function<WebDriver, Boolean>() 
+{
+	public Boolean apply(WebDriver driver) 
+	{
+		return String.valueOf(((JavascriptExecutor) driver).executeScript("return document.readyState")).equals("complete");
+	}
+});
