@@ -1,0 +1,33 @@
+18-11-2017 15:03:03.796 [Thread-3] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ea37dbf: startup date [Fri Nov 17 15:00:12 IST 2017]; root of context hierarchy
+18-11-2017 15:03:03.805 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+18-11-2017 15:03:05.034 [main] INFO  com.finatel.SampleApplication.logStarting - Starting SampleApplication on FT-DESKTOP-019 with PID 25283 (/home/user/Documents/workspace-sts-3.8.3.RELEASE/Sample/bin started by user in /home/user/Documents/workspace-sts-3.8.3.RELEASE/Sample)
+18-11-2017 15:03:05.041 [main] INFO  com.finatel.SampleApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+18-11-2017 15:03:05.141 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ea37dbf: startup date [Sat Nov 18 15:03:05 IST 2017]; root of context hierarchy
+18-11-2017 15:03:05.496 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.5.Final
+18-11-2017 15:03:06.369 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8115 (http)
+18-11-2017 15:03:06.383 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+18-11-2017 15:03:06.385 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.15
+18-11-2017 15:03:06.504 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+18-11-2017 15:03:06.504 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 1364 ms
+18-11-2017 15:03:06.628 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+18-11-2017 15:03:06.630 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+18-11-2017 15:03:06.631 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+18-11-2017 15:03:06.631 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+18-11-2017 15:03:06.632 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+18-11-2017 15:03:06.909 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ea37dbf: startup date [Sat Nov 18 15:03:05 IST 2017]; root of context hierarchy
+18-11-2017 15:03:06.973 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/post],methods=[POST]}" onto public java.lang.String com.finatel.SampleApplication.testPost()
+18-11-2017 15:03:06.974 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/postlog],methods=[POST]}" onto public java.lang.String com.finatel.SampleApplication.testPostLog()
+18-11-2017 15:03:06.980 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.finatel.SampleApplication.test()
+18-11-2017 15:03:06.984 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18-11-2017 15:03:06.985 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+18-11-2017 15:03:07.011 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18-11-2017 15:03:07.011 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18-11-2017 15:03:07.046 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18-11-2017 15:03:07.196 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+18-11-2017 15:03:07.218 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8115"]
+18-11-2017 15:03:07.228 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8115"]
+18-11-2017 15:03:07.242 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+18-11-2017 15:03:07.277 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8115 (http)
+18-11-2017 15:03:07.288 [main] INFO  com.finatel.SampleApplication.logStarted - Started SampleApplication in 2.654 seconds (JVM running for 2.936)
+16-11-2017 18:47:40.142 [Thread-3] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ea37dbf: startup date [Sat Nov 18 15:03:05 IST 2017]; root of context hierarchy
+16-11-2017 18:47:40.144 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown

@@ -1,0 +1,45 @@
+#!/bin/bash
+
+qa=$1
+prod=$2
+if [ $1 ];
+then
+       	echo "Qa filename is given"
+	while IFS='=' read -r oldkey oldvalue
+	do
+		#echo $olkey
+		if [ $2 ] 
+		then
+			while IFS='=' read -r newkey newvalue
+			do 
+				if [ ! $oldkey=$newkey ] 
+				then
+					echo "Key is present in production file"
+					echo $oldkey
+				fi	
+			done < "$prod.properties"
+		else
+			echo "Production file is not given"
+		fi
+		
+	done < "$qa.properties"
+else
+	echo "terminating operation as qa file is also not given"
+fi
+
+
+
+for i in $(cat $qa.properties)
+do
+	for j in $(cat $prod.properties)
+	do
+		if [ ! $i = $j ]
+		then
+			k=$i 	
+		echo ""		
+		fi
+		echo $k
+	done
+	
+done
+

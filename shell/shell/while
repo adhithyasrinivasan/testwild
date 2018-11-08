@@ -1,0 +1,12 @@
+#!/bin/bash
+status=0
+while [ $status -eq 0 ]
+do
+	echo 'true'
+	status=1
+done
+
+if [ $status=0 ]; then
+echo 'true'
+fi
+

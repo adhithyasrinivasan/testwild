@@ -1,0 +1,25 @@
+#!/bin/bash
+
+qa=$1
+prod=$2
+if [ $1 ];
+then
+       	echo "Qa filename is given"
+	if [ $2  ];
+	then		
+	while IFS='=' read -r oldkey oldvalue
+		do
+			newkey=$( grep -iw $oldkey $prod.properties)
+			if [ -z $newkey ]; 
+			then
+				echo "$oldkey"	
+			fi
+		done < "$qa.properties"
+	fi
+else
+	echo "terminating operation as qa file is also not given"
+fi
+
+
+
+

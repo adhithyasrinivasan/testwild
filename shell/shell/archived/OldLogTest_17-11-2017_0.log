@@ -1,0 +1,31 @@
+17-11-2017 15:00:11.009 [Thread-3] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@add0edd: startup date [Thu Nov 16 17:33:47 IST 2017]; root of context hierarchy
+17-11-2017 15:00:11.013 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+17-11-2017 15:00:12.909 [main] INFO  com.finatel.SampleApplication.logStarting - Starting SampleApplication on FT-DESKTOP-019 with PID 18760 (/home/user/Documents/workspace-sts-3.8.3.RELEASE/Sample/bin started by user in /home/user/Documents/workspace-sts-3.8.3.RELEASE/Sample)
+17-11-2017 15:00:12.910 [main] INFO  com.finatel.SampleApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-11-2017 15:00:12.961 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ea37dbf: startup date [Fri Nov 17 15:00:12 IST 2017]; root of context hierarchy
+17-11-2017 15:00:13.247 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.5.Final
+17-11-2017 15:00:14.196 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8115 (http)
+17-11-2017 15:00:14.207 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-11-2017 15:00:14.208 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.15
+17-11-2017 15:00:14.477 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-11-2017 15:00:14.477 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 1516 ms
+17-11-2017 15:00:14.614 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+17-11-2017 15:00:14.618 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+17-11-2017 15:00:14.619 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17-11-2017 15:00:14.619 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17-11-2017 15:00:14.620 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+17-11-2017 15:00:14.872 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ea37dbf: startup date [Fri Nov 17 15:00:12 IST 2017]; root of context hierarchy
+17-11-2017 15:00:14.934 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/post],methods=[POST]}" onto public java.lang.String com.finatel.SampleApplication.testPost()
+17-11-2017 15:00:14.936 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/postlog],methods=[POST]}" onto public java.lang.String com.finatel.SampleApplication.testPostLog()
+17-11-2017 15:00:14.941 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.finatel.SampleApplication.test()
+17-11-2017 15:00:14.945 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17-11-2017 15:00:14.946 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17-11-2017 15:00:14.973 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-11-2017 15:00:14.973 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-11-2017 15:00:15.006 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-11-2017 15:00:15.161 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+17-11-2017 15:00:15.178 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8115"]
+17-11-2017 15:00:15.189 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8115"]
+17-11-2017 15:00:15.196 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+17-11-2017 15:00:15.215 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8115 (http)
+17-11-2017 15:00:15.220 [main] INFO  com.finatel.SampleApplication.logStarted - Started SampleApplication in 2.675 seconds (JVM running for 3.466)
