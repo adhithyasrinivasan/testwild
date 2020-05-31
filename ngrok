@@ -1,0 +1,2 @@
+./ngrok authtoken 1cfTz23MqcWBzJFjImcr5uVib3r_6EXGTgg3ZMbwJzCVmoahZ
+./ngrok http 80 --subdomain=adhithyasrinivasan
